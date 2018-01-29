@@ -1,0 +1,5 @@
+source /u/cs246/setup
+rm *.zip
+zip a2q2.zip *
+sleep 2
+marmoset_submit cs246 a2q2a a2q2.zip
